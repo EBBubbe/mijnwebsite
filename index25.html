@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--verplichte metatags-->
+
+<meta charset="utf-8">
+<meta name="description" content="index5.html">
+<meta name="viewpoort" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style25.css">
+<title>mijn website</title>
+
+
+
+<script src="http://code.jquery.com/jquery-3.1.0.min.js">
+</script>
+<script type="text/Javascript">
+$(document).ready(function()
+{
+$("#knop").click(function()
+
+{
+  var naam = $("#idTekstveld1").val();
+  var relatienummer = $("#idTekstveld2").val();
+  var vraag = $("#idTekstveld3").val();
+  window.alert("hallo " + naam + "uw relatienummer"
+  + relatienummer + "vraag" + vraag
+  });
+  });
+  });
+
+$("selector").eventHandler(funtion()
+{ de opdrachten die de gebeurtenissen moeten afhandelen
+});
+
+</script>
+</head>
+<body>
+
+<div>
+  wat is uw naam?
+<input type="text" id="idTekstveld1"><br><br>
+wat is uw relatienummer?
+<input type="text" id="idTekstveld2"><br><br>
+waar gaat u vraag over?
+<input type="text" id="idTekstveld3"><br><br>
+<input id ="knop" name="knop" type="button"
+value="druk op deze knop">
+</div>
+
+<script type="text/Javascript">
+window.alert("Deze pagina bevat een ingebouwde functie");
+window.alert("u heeft op de knop gedrukt");
+</script>
+</body>
+</html>
